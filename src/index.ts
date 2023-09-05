@@ -1,7 +1,7 @@
 import http from "http";
 import { handleRequest } from "./route/blog.routes";
 // import { connection } from './databae/dbConfig';
-import { connection } from "./config/db";
+import  connection  from "./config/db.config";
 
 const server = http.createServer(handleRequest);
 
